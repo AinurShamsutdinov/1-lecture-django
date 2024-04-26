@@ -1,0 +1,46 @@
+INFO 2024-04-26 14:19:20,491 autoreload 67300 8302721728 Watching for file changes with StatReloader
+INFO 2024-04-26 14:19:31,332 views 67300 6200913920 Index page accessed
+INFO 2024-04-26 14:19:31,334 basehttp 67300 6200913920 "GET /prefix/prefix/ HTTP/1.1" 200 13
+WARNING 2024-04-26 14:19:31,356 log 67300 6200913920 Not Found: /favicon.ico
+WARNING 2024-04-26 14:19:31,356 basehttp 67300 6200913920 "GET /favicon.ico HTTP/1.1" 404 2220
+ERROR 2024-04-26 14:19:37,547 views 67300 6200913920 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp/views.py", line 18, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-26 14:19:37,549 basehttp 67300 6200913920 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-04-26 14:19:58,749 basehttp 67300 6234566656 "GET /prefix/about HTTP/1.1" 301 0
+ERROR 2024-04-26 14:19:58,908 views 67300 6234566656 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp/views.py", line 18, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-26 14:19:58,910 basehttp 67300 6234566656 "GET /prefix/about/ HTTP/1.1" 200 27
+ERROR 2024-04-26 14:20:12,903 views 67300 6234566656 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp/views.py", line 18, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-26 14:20:12,905 basehttp 67300 6234566656 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-04-26 14:20:21,825 basehttp 67300 6234566656 - Broken pipe from ('192.168.1.6', 56222)
+INFO 2024-04-26 14:23:13,757 basehttp 67300 6217740288 code 400, message Bad request version ('WG%hnsväWN\x86¨(Éô\x92Wû2\x07')
+ERROR 2024-04-26 14:23:13,758 basehttp 67300 6217740288 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-04-26 14:23:13,759 basehttp 67300 6217740288 code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s')
+ERROR 2024-04-26 14:23:13,759 basehttp 67300 6217740288 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-04-26 14:35:13,134 views 67300 6200913920 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp/views.py", line 18, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-26 14:35:13,135 basehttp 67300 6200913920 "GET /prefix/about/ HTTP/1.1" 200 27
+ERROR 2024-04-26 14:35:20,346 views 67300 6200913920 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp/views.py", line 18, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-26 14:35:20,347 basehttp 67300 6200913920 "GET /prefix/about/ HTTP/1.1" 200 27
