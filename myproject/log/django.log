@@ -1,0 +1,754 @@
+INFO 2024-04-26 14:19:20,491 autoreload 67300 8302721728 Watching for file changes with StatReloader
+INFO 2024-04-26 14:19:31,332 views 67300 6200913920 Index page accessed
+INFO 2024-04-26 14:19:31,334 basehttp 67300 6200913920 "GET /prefix/prefix/ HTTP/1.1" 200 13
+WARNING 2024-04-26 14:19:31,356 log 67300 6200913920 Not Found: /favicon.ico
+WARNING 2024-04-26 14:19:31,356 basehttp 67300 6200913920 "GET /favicon.ico HTTP/1.1" 404 2220
+ERROR 2024-04-26 14:19:37,547 views 67300 6200913920 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp/views.py", line 18, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-26 14:19:37,549 basehttp 67300 6200913920 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-04-26 14:19:58,749 basehttp 67300 6234566656 "GET /prefix/about HTTP/1.1" 301 0
+ERROR 2024-04-26 14:19:58,908 views 67300 6234566656 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp/views.py", line 18, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-26 14:19:58,910 basehttp 67300 6234566656 "GET /prefix/about/ HTTP/1.1" 200 27
+ERROR 2024-04-26 14:20:12,903 views 67300 6234566656 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp/views.py", line 18, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-26 14:20:12,905 basehttp 67300 6234566656 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-04-26 14:20:21,825 basehttp 67300 6234566656 - Broken pipe from ('192.168.1.6', 56222)
+INFO 2024-04-26 14:23:13,757 basehttp 67300 6217740288 code 400, message Bad request version ('WG%hnsväWN\x86¨(Éô\x92Wû2\x07')
+ERROR 2024-04-26 14:23:13,758 basehttp 67300 6217740288 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-04-26 14:23:13,759 basehttp 67300 6217740288 code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s')
+ERROR 2024-04-26 14:23:13,759 basehttp 67300 6217740288 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-04-26 14:35:13,134 views 67300 6200913920 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp/views.py", line 18, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-26 14:35:13,135 basehttp 67300 6200913920 "GET /prefix/about/ HTTP/1.1" 200 27
+ERROR 2024-04-26 14:35:20,346 views 67300 6200913920 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp/views.py", line 18, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-26 14:35:20,347 basehttp 67300 6200913920 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-04-27 14:53:06,517 autoreload 76751 8302721728 Watching for file changes with StatReloader
+INFO 2024-04-27 14:55:19,712 autoreload 76776 8302721728 Watching for file changes with StatReloader
+INFO 2024-04-30 12:03:58,993 autoreload 21634 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 12:15:24,411 autoreload 21860 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 12:15:56,843 autoreload 21860 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-04-30 12:15:56,997 autoreload 21895 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 12:16:28,416 basehttp 21895 6188986368 "GET /les3/hello HTTP/1.1" 301 0
+INFO 2024-04-30 12:16:28,418 basehttp 21895 6205812736 "GET /les3/hello/ HTTP/1.1" 200 26
+WARNING 2024-04-30 12:16:28,468 log 21895 6205812736 Not Found: /favicon.ico
+WARNING 2024-04-30 12:16:28,468 basehttp 21895 6205812736 "GET /favicon.ico HTTP/1.1" 404 2325
+INFO 2024-04-30 12:16:39,675 basehttp 21895 6205812736 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2024-04-30 12:24:32,566 autoreload 21895 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-04-30 12:24:32,712 autoreload 21998 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 12:54:24,270 autoreload 22502 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 12:57:39,434 autoreload 22502 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 12:57:39,590 autoreload 22603 8346892992 Watching for file changes with StatReloader
+WARNING 2024-04-30 12:57:54,046 log 22603 6199586816 Not Found: /les3/
+WARNING 2024-04-30 12:57:54,046 basehttp 22603 6199586816 "GET /les3/ HTTP/1.1" 404 3176
+WARNING 2024-04-30 12:58:04,447 log 22603 6199586816 Not Found: /les3/posts
+WARNING 2024-04-30 12:58:04,447 basehttp 22603 6199586816 "GET /les3/posts HTTP/1.1" 404 3191
+INFO 2024-04-30 12:58:16,591 basehttp 22603 6199586816 "GET /les3/posts/2002 HTTP/1.1" 200 59
+WARNING 2024-04-30 12:58:38,174 log 22603 6199586816 Not Found: /les3/posts/2002/20/a;sldkfjpwoiejlk
+WARNING 2024-04-30 12:58:38,174 basehttp 22603 6199586816 "GET /les3/posts/2002/20/a;sldkfjpwoiejlk HTTP/1.1" 404 3268
+WARNING 2024-04-30 12:59:09,077 log 22603 6199586816 Not Found: /les3/posts/2002/20/a;sldkfjpwoiejlk
+WARNING 2024-04-30 12:59:09,078 basehttp 22603 6199586816 "GET /les3/posts/2002/20/a;sldkfjpwoiejlk HTTP/1.1" 404 3268
+INFO 2024-04-30 12:59:15,243 basehttp 22603 6199586816 "GET /les3/posts/2002/20/asldkfjpwoiejlk HTTP/1.1" 200 61
+INFO 2024-04-30 13:00:14,829 autoreload 22603 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 13:00:14,957 autoreload 22654 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 13:00:49,417 autoreload 22654 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 13:00:49,556 autoreload 22692 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 13:01:19,053 basehttp 22692 6168375296 "GET /les3/posts/2002/20/asldkfjpwoiejlk HTTP/1.1" 200 89
+INFO 2024-04-30 13:01:37,353 basehttp 22692 6168375296 "GET /les3/posts/2002/20/asldkfjpwoiejlk HTTP/1.1" 200 89
+INFO 2024-04-30 13:01:38,533 basehttp 22692 6168375296 "GET /les3/posts/2002/20/asldkfjpwoiejlk HTTP/1.1" 200 89
+INFO 2024-04-30 13:01:39,287 basehttp 22692 6168375296 "GET /les3/posts/2002/20/asldkfjpwoiejlk HTTP/1.1" 200 89
+INFO 2024-04-30 13:01:40,368 autoreload 22692 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 13:01:40,520 autoreload 22707 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 13:01:49,652 basehttp 22707 6130839552 "GET /les3/posts/2002/20/asldkfjpwoiejlk HTTP/1.1" 200 89
+INFO 2024-04-30 13:15:17,917 basehttp 22707 6130839552 "GET /les3/posts/2002/20/asldkfjpwoiejlk HTTP/1.1" 200 89
+INFO 2024-04-30 13:15:21,907 basehttp 22707 6130839552 "GET /les3/posts/2002/20 HTTP/1.1" 200 60
+INFO 2024-04-30 13:15:27,639 basehttp 22707 6130839552 "GET /les3/posts/2002 HTTP/1.1" 200 59
+INFO 2024-04-30 13:18:41,195 autoreload 22707 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 13:18:41,347 autoreload 22943 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 13:18:48,008 basehttp 22943 6135115776 "GET /les3/posts/2002/20/asldkfjpwoiejlk HTTP/1.1" 200 152
+INFO 2024-04-30 13:19:55,658 basehttp 22943 6168768512 "GET /les3/posts/2002/20/asldkfjpwoiejlk HTTP/1.1" 200 152
+INFO 2024-04-30 13:21:13,198 basehttp 22943 6168768512 "GET /les3/posts/2002/20/asldkfjpwoiejlk HTTP/1.1" 200 152
+INFO 2024-04-30 13:21:16,580 autoreload 22943 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 13:21:16,717 autoreload 22988 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 13:21:18,745 basehttp 22988 6201503744 "GET /les3/posts/2002/20/asldkfjpwoiejlk HTTP/1.1" 200 179
+INFO 2024-04-30 13:21:35,052 autoreload 22988 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 13:21:35,189 autoreload 22997 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 13:21:37,380 basehttp 22997 6203273216 "GET /les3/posts/2002/20/asldkfjpwoiejlk HTTP/1.1" 200 295
+INFO 2024-04-30 13:31:54,547 autoreload 22997 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 13:31:54,704 autoreload 23132 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 13:33:53,209 autoreload 23132 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 13:33:53,361 autoreload 23191 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 13:33:58,776 basehttp 23191 6156660736 "GET /les3/ HTTP/1.1" 200 170
+INFO 2024-04-30 13:35:05,576 basehttp 23191 6156660736 "GET /les3/ HTTP/1.1" 200 170
+INFO 2024-04-30 13:35:08,392 autoreload 23191 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 13:35:08,546 autoreload 23238 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 13:35:13,285 basehttp 23238 6191165440 "GET /les3/ HTTP/1.1" 200 216
+INFO 2024-04-30 13:40:15,467 autoreload 23238 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 13:40:15,626 autoreload 23357 8346892992 Watching for file changes with StatReloader
+ERROR 2024-04-30 13:40:17,635 log 23357 6203387904 Internal Server Error: /les3/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/smartif.py", line 180, in translate_token
+    op = OPERATORS[token]
+         ~~~~~~~~~^^^^^^^
+KeyError: '>=2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py", line 50, in my_view
+    return render(request, 'myapp3/my_template.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 968, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 893, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/smartif.py", line 171, in __init__
+    mapped_tokens.append(self.translate_token(token))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/smartif.py", line 182, in translate_token
+    return self.create_var(token)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 896, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '>=2' from '>=2'
+ERROR 2024-04-30 13:40:17,640 basehttp 23357 6203387904 "GET /les3/ HTTP/1.1" 500 163663
+INFO 2024-04-30 13:41:37,384 basehttp 23357 6203387904 "GET /les3/ HTTP/1.1" 200 281
+INFO 2024-04-30 13:41:57,189 autoreload 23357 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 13:41:57,341 autoreload 23381 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 13:41:59,271 basehttp 23381 6168440832 "GET /les3/ HTTP/1.1" 200 292
+INFO 2024-04-30 13:43:33,655 autoreload 23381 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 13:43:33,810 autoreload 23423 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 13:43:39,881 basehttp 23423 6126907392 "GET /les3/ HTTP/1.1" 200 339
+INFO 2024-04-30 13:55:32,710 autoreload 23423 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-04-30 13:55:32,871 autoreload 23632 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 13:55:37,905 basehttp 23632 6156775424 "GET /les3/if HTTP/1.1" 301 0
+ERROR 2024-04-30 13:55:37,929 log 23632 6173601792 Internal Server Error: /les3/if/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py", line 60, in get_context_data
+    context = super.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'super' has no attribute 'get_context_data'
+ERROR 2024-04-30 13:55:37,931 basehttp 23632 6173601792 "GET /les3/if/ HTTP/1.1" 500 75380
+WARNING 2024-04-30 13:55:50,016 log 23632 6173601792 Not Found: /les3/if/asdf
+WARNING 2024-04-30 13:55:50,017 basehttp 23632 6173601792 "GET /les3/if/asdf HTTP/1.1" 404 3535
+ERROR 2024-04-30 13:56:20,415 log 23632 6173601792 Internal Server Error: /les3/if/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py", line 60, in get_context_data
+    context = super.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'super' has no attribute 'get_context_data'
+ERROR 2024-04-30 13:56:20,417 basehttp 23632 6173601792 "GET /les3/if/ HTTP/1.1" 500 75380
+INFO 2024-04-30 13:57:01,114 autoreload 23632 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-04-30 13:57:01,265 autoreload 23659 8346892992 Watching for file changes with StatReloader
+ERROR 2024-04-30 13:57:05,002 log 23659 6127824896 Internal Server Error: /les3/if/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_if.html
+ERROR 2024-04-30 13:57:05,004 basehttp 23659 6127824896 "GET /les3/if/ HTTP/1.1" 500 76793
+INFO 2024-04-30 13:59:28,384 basehttp 23659 6127824896 "GET /les3/if/ HTTP/1.1" 200 286
+INFO 2024-04-30 14:11:01,055 autoreload 23659 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 14:11:01,215 autoreload 23869 8346892992 Watching for file changes with StatReloader
+WARNING 2024-04-30 14:11:11,811 log 23869 6121861120 Not Found: /les3/for/
+WARNING 2024-04-30 14:11:11,812 basehttp 23869 6121861120 "GET /les3/for/ HTTP/1.1" 404 3526
+WARNING 2024-04-30 14:12:08,535 log 23869 6121861120 Not Found: /les3/for/
+WARNING 2024-04-30 14:12:08,535 basehttp 23869 6121861120 "GET /les3/for/ HTTP/1.1" 404 3526
+WARNING 2024-04-30 14:12:09,344 log 23869 6121861120 Not Found: /les3/for/
+WARNING 2024-04-30 14:12:09,345 basehttp 23869 6121861120 "GET /les3/for/ HTTP/1.1" 404 3526
+INFO 2024-04-30 14:12:11,253 autoreload 23869 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-04-30 14:12:11,403 autoreload 23910 8346892992 Watching for file changes with StatReloader
+ERROR 2024-04-30 14:12:13,425 log 23910 6125072384 Internal Server Error: /les3/for/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp3.views.view_for didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-30 14:12:13,426 basehttp 23910 6125072384 "GET /les3/for/ HTTP/1.1" 500 63005
+INFO 2024-04-30 14:12:44,879 autoreload 23910 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 14:12:45,035 autoreload 23920 8346892992 Watching for file changes with StatReloader
+ERROR 2024-04-30 14:12:46,431 log 23920 6127415296 Internal Server Error: /les3/for/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/middleware/clickjacking.py", line 34, in process_response
+    response.headers["X-Frame-Options"] = self.get_xframe_options_value(
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'headers'
+ERROR 2024-04-30 14:12:46,432 basehttp 23920 6127415296 "GET /les3/for/ HTTP/1.1" 500 62087
+ERROR 2024-04-30 14:13:25,774 log 23920 6127415296 Internal Server Error: /les3/for/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/middleware/clickjacking.py", line 34, in process_response
+    response.headers["X-Frame-Options"] = self.get_xframe_options_value(
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'headers'
+ERROR 2024-04-30 14:13:25,775 basehttp 23920 6127415296 "GET /les3/for/ HTTP/1.1" 500 62087
+ERROR 2024-04-30 14:13:26,548 log 23920 6127415296 Internal Server Error: /les3/for/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/middleware/clickjacking.py", line 34, in process_response
+    response.headers["X-Frame-Options"] = self.get_xframe_options_value(
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'headers'
+ERROR 2024-04-30 14:13:26,550 basehttp 23920 6127415296 "GET /les3/for/ HTTP/1.1" 500 62087
+INFO 2024-04-30 14:13:32,723 autoreload 23920 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 14:13:32,881 autoreload 23954 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 14:13:34,906 basehttp 23954 6190313472 "GET /les3/for/ HTTP/1.1" 200 232
+INFO 2024-04-30 14:14:46,260 basehttp 23954 6190313472 "GET /les3/for/ HTTP/1.1" 200 232
+INFO 2024-04-30 14:14:47,350 basehttp 23954 6190313472 "GET /les3/for/ HTTP/1.1" 200 232
+INFO 2024-04-30 14:14:57,604 autoreload 23984 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 14:14:59,372 basehttp 23984 6190034944 "GET /les3/for/ HTTP/1.1" 200 657
+INFO 2024-04-30 14:50:35,817 autoreload 23984 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-30 14:50:36,002 autoreload 24402 8346892992 Watching for file changes with StatReloader
+WARNING 2024-04-30 14:50:47,987 log 24402 6123646976 Not Found: /les3/index/
+WARNING 2024-04-30 14:50:47,987 basehttp 24402 6123646976 "GET /les3/index/ HTTP/1.1" 404 3706
+INFO 2024-04-30 14:52:11,272 autoreload 24402 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-04-30 14:52:11,419 autoreload 24456 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 14:52:13,741 basehttp 24456 6170062848 "GET /les3/index/ HTTP/1.1" 200 199
+INFO 2024-04-30 14:52:18,768 basehttp 24456 6170062848 "GET /les3/about/ HTTP/1.1" 200 185
+INFO 2024-04-30 16:11:15,520 autoreload 25039 8346892992 Watching for file changes with StatReloader
+ERROR 2024-04-30 16:11:18,945 log 25039 6123319296 Internal Server Error: /les3/about/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py", line 87, in about
+    return render(request, 'myapp3/about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-04-30 16:11:18,955 basehttp 25039 6123319296 "GET /les3/about/ HTTP/1.1" 500 120904
+ERROR 2024-04-30 16:11:33,414 log 25039 6123319296 Internal Server Error: /les3/about/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py", line 87, in about
+    return render(request, 'myapp3/about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-04-30 16:11:33,419 basehttp 25039 6123319296 "GET /les3/about/ HTTP/1.1" 500 120904
+ERROR 2024-04-30 16:11:34,098 log 25039 6123319296 Internal Server Error: /les3/about/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py", line 87, in about
+    return render(request, 'myapp3/about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-04-30 16:11:34,104 basehttp 25039 6123319296 "GET /les3/about/ HTTP/1.1" 500 120904
+INFO 2024-04-30 16:12:20,905 autoreload 25075 8346892992 Watching for file changes with StatReloader
+ERROR 2024-04-30 16:12:24,020 log 25075 6160199680 Internal Server Error: /les3/about/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py", line 87, in about
+    return render(request, 'myapp3/about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-04-30 16:12:24,026 basehttp 25075 6160199680 "GET /les3/about/ HTTP/1.1" 500 120904
+ERROR 2024-04-30 16:12:57,021 log 25075 6160199680 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py", line 83, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-04-30 16:12:57,028 basehttp 25075 6160199680 "GET /les3/index/ HTTP/1.1" 500 121510
+INFO 2024-04-30 16:19:14,570 autoreload 25125 8346892992 Watching for file changes with StatReloader
+ERROR 2024-04-30 16:19:25,145 log 25125 6168309760 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/views.py", line 83, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-04-30 16:19:25,150 basehttp 25125 6168309760 "GET /les3/index/ HTTP/1.1" 500 121647
+INFO 2024-04-30 16:26:58,585 autoreload 25257 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:27:03,867 basehttp 25257 6132985856 "GET /les3/index/ HTTP/1.1" 200 126
+INFO 2024-04-30 16:27:24,739 basehttp 25257 6132985856 "GET /les3/about/ HTTP/1.1" 200 126
+INFO 2024-04-30 16:28:27,824 autoreload 25257 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/settings.py changed, reloading.
+INFO 2024-04-30 16:28:27,965 autoreload 25272 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:28:32,151 basehttp 25272 6197751808 "GET /les3/about/ HTTP/1.1" 200 221
+INFO 2024-04-30 16:28:36,759 basehttp 25272 6197751808 "GET /les3/index/ HTTP/1.1" 200 235
+INFO 2024-04-30 16:31:47,523 autoreload 25272 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-04-30 16:31:47,659 autoreload 25305 8346892992 Watching for file changes with StatReloader
+WARNING 2024-04-30 16:31:56,898 log 25305 6124662784 Not Found: /index
+WARNING 2024-04-30 16:31:56,899 basehttp 25305 6124662784 "GET /index HTTP/1.1" 404 2407
+INFO 2024-04-30 16:33:21,143 autoreload 25305 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-04-30 16:33:21,294 autoreload 25323 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:34:15,690 autoreload 25342 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:34:41,034 autoreload 25342 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-04-30 16:34:41,204 autoreload 25349 8346892992 Watching for file changes with StatReloader
+WARNING 2024-04-30 16:34:43,563 log 25349 6169702400 Not Found: /index
+WARNING 2024-04-30 16:34:43,563 basehttp 25349 6169702400 "GET /index HTTP/1.1" 404 2407
+WARNING 2024-04-30 16:34:54,459 log 25349 6169702400 Not Found: /index
+WARNING 2024-04-30 16:34:54,459 basehttp 25349 6169702400 "GET /index HTTP/1.1" 404 2407
+INFO 2024-04-30 16:34:54,549 autoreload 25349 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-04-30 16:34:54,709 autoreload 25356 8346892992 Watching for file changes with StatReloader
+WARNING 2024-04-30 16:34:55,663 log 25356 6168408064 Not Found: /index
+WARNING 2024-04-30 16:34:55,663 basehttp 25356 6168408064 "GET /index HTTP/1.1" 404 2407
+WARNING 2024-04-30 16:34:56,532 log 25356 6168408064 Not Found: /index
+WARNING 2024-04-30 16:34:56,533 basehttp 25356 6168408064 "GET /index HTTP/1.1" 404 2407
+WARNING 2024-04-30 16:34:57,293 log 25356 6168408064 Not Found: /index
+WARNING 2024-04-30 16:34:57,294 basehttp 25356 6168408064 "GET /index HTTP/1.1" 404 2407
+WARNING 2024-04-30 16:34:57,497 log 25356 6168408064 Not Found: /index
+WARNING 2024-04-30 16:34:57,497 basehttp 25356 6168408064 "GET /index HTTP/1.1" 404 2407
+WARNING 2024-04-30 16:34:57,712 log 25356 6168408064 Not Found: /index
+WARNING 2024-04-30 16:34:57,713 basehttp 25356 6168408064 "GET /index HTTP/1.1" 404 2407
+WARNING 2024-04-30 16:35:08,835 log 25356 6168408064 Not Found: /index
+WARNING 2024-04-30 16:35:08,835 basehttp 25356 6168408064 "GET /index HTTP/1.1" 404 2407
+INFO 2024-04-30 16:35:09,005 autoreload 25356 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-04-30 16:35:09,173 autoreload 25367 8346892992 Watching for file changes with StatReloader
+WARNING 2024-04-30 16:35:11,815 log 25367 6194671616 Not Found: /index
+WARNING 2024-04-30 16:35:11,816 basehttp 25367 6194671616 "GET /index HTTP/1.1" 404 2408
+INFO 2024-04-30 16:39:24,167 autoreload 25367 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-04-30 16:39:24,319 autoreload 25399 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:41:42,095 autoreload 25399 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-04-30 16:41:42,266 autoreload 25418 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:42:32,840 autoreload 25418 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-04-30 16:42:32,993 autoreload 25438 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:45:24,092 autoreload 25461 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:46:42,194 autoreload 25461 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-04-30 16:46:42,332 autoreload 25474 8346892992 Watching for file changes with StatReloader
+WARNING 2024-04-30 16:46:47,133 log 25474 6200455168 Not Found: /index
+WARNING 2024-04-30 16:46:47,134 basehttp 25474 6200455168 "GET /index HTTP/1.1" 404 2408
+INFO 2024-04-30 16:47:43,215 autoreload 25474 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/settings.py changed, reloading.
+INFO 2024-04-30 16:47:43,351 autoreload 25515 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:48:02,977 autoreload 25526 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:49:19,829 autoreload 25526 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/settings.py changed, reloading.
+INFO 2024-04-30 16:49:19,965 autoreload 25547 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:50:17,755 autoreload 25547 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/settings.py changed, reloading.
+INFO 2024-04-30 16:50:17,907 autoreload 25573 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:50:34,653 autoreload 25586 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:50:45,337 autoreload 25573 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-04-30 16:50:45,488 autoreload 25598 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:50:47,409 autoreload 25600 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:51:00,811 autoreload 25609 8346892992 Watching for file changes with StatReloader
+WARNING 2024-04-30 16:51:18,970 log 25609 6203584512 Not Found: /index
+WARNING 2024-04-30 16:51:18,971 basehttp 25609 6203584512 "GET /index HTTP/1.1" 404 2407
+INFO 2024-04-30 16:54:44,873 autoreload 25688 8346892992 Watching for file changes with StatReloader
+WARNING 2024-04-30 16:54:59,325 log 25688 6200209408 Not Found: /index
+WARNING 2024-04-30 16:54:59,326 basehttp 25688 6200209408 "GET /index HTTP/1.1" 404 2407
+INFO 2024-04-30 16:55:09,776 basehttp 25688 6200209408 "GET / HTTP/1.1" 200 235
+INFO 2024-04-30 16:55:54,715 autoreload 25722 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 16:56:02,465 basehttp 25722 6199373824 "GET / HTTP/1.1" 200 235
+INFO 2024-04-30 16:56:04,573 basehttp 25722 6199373824 "GET / HTTP/1.1" 200 235
+INFO 2024-04-30 16:56:51,592 autoreload 25722 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/models.py changed, reloading.
+INFO 2024-04-30 16:56:51,771 autoreload 25741 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 17:06:29,923 autoreload 25741 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/models.py changed, reloading.
+INFO 2024-04-30 17:06:30,057 autoreload 25891 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 17:08:40,662 autoreload 25891 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp3/models.py changed, reloading.
+INFO 2024-04-30 17:08:40,806 autoreload 25970 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 21:39:13,058 autoreload 29723 8346892992 Watching for file changes with StatReloader
+INFO 2024-04-30 21:39:27,636 basehttp 29723 6130774016 "GET / HTTP/1.1" 200 235
+INFO 2024-04-30 21:39:43,060 basehttp 29723 6130774016 "GET /les3/author/2 HTTP/1.1" 301 0
+INFO 2024-04-30 21:39:43,069 basehttp 29723 6147600384 "GET /les3/author/2/ HTTP/1.1" 200 246
+INFO 2024-04-30 21:40:01,229 basehttp 29723 6147600384 "GET /les3/author/5/ HTTP/1.1" 200 1232
+INFO 2024-04-30 21:40:09,743 basehttp 29723 6147600384 "GET /les3/post/26/ HTTP/1.1" 200 590
+INFO 2024-04-30 21:40:13,446 basehttp 29723 6147600384 "GET /les3/post/27/ HTTP/1.1" 200 607
+INFO 2024-04-30 21:40:15,370 basehttp 29723 6147600384 "GET /les3/post/29/ HTTP/1.1" 200 607
+INFO 2024-04-30 21:40:17,554 basehttp 29723 6147600384 "GET /les3/post/30/ HTTP/1.1" 200 627
+INFO 2024-04-30 21:40:20,467 basehttp 29723 6147600384 "GET /les3/post/28/ HTTP/1.1" 200 639
+INFO 2024-04-30 21:43:16,063 basehttp 29723 6147600384 "GET /les3/author/8/ HTTP/1.1" 200 1215
