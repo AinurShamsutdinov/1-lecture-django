@@ -24,10 +24,7 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="dac82c6f-2024-4aa9-9d90-9cfec9d87f53" object-ref="schemas/db/tables/myapp3_post" />
-      <object connection-id="dac82c6f-2024-4aa9-9d90-9cfec9d87f53" object-ref="consoles/Connection" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="dac82c6f-2024-4aa9-9d90-9cfec9d87f53" />
@@ -40,6 +37,7 @@
     </filter-actions>
     <filter-actions connection-id="dac82c6f-2024-4aa9-9d90-9cfec9d87f53" dataset="db.sqlite_sequence" active-filter-id="" />
     <filter-actions connection-id="dac82c6f-2024-4aa9-9d90-9cfec9d87f53" dataset="db.myapp2_order" active-filter-id="" />
+    <filter-actions connection-id="dac82c6f-2024-4aa9-9d90-9cfec9d87f53" dataset="db.myapp4_user" active-filter-id="" />
     <filter-actions connection-id="dac82c6f-2024-4aa9-9d90-9cfec9d87f53" dataset="db.myapp3_post" active-filter-id="605e8947-2274-48a5-ac4d-eacb772eebee">
       <filter id="605e8947-2274-48a5-ac4d-eacb772eebee" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="id" operator="=" value="" active="true" />

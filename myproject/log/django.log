@@ -752,3 +752,307 @@ INFO 2024-04-30 21:40:15,370 basehttp 29723 6147600384 "GET /les3/post/29/ HTTP/
 INFO 2024-04-30 21:40:17,554 basehttp 29723 6147600384 "GET /les3/post/30/ HTTP/1.1" 200 627
 INFO 2024-04-30 21:40:20,467 basehttp 29723 6147600384 "GET /les3/post/28/ HTTP/1.1" 200 639
 INFO 2024-04-30 21:43:16,063 basehttp 29723 6147600384 "GET /les3/author/8/ HTTP/1.1" 200 1215
+INFO 2024-05-03 15:18:39,210 autoreload 75513 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 15:18:44,857 basehttp 75513 6203076608 "GET / HTTP/1.1" 200 235
+INFO 2024-05-03 15:19:12,470 basehttp 75513 6203076608 "GET /les4/user/add HTTP/1.1" 301 0
+INFO 2024-05-03 15:19:12,482 basehttp 75513 6219902976 "GET /les4/user/add/ HTTP/1.1" 200 446
+INFO 2024-05-03 15:19:59,697 autoreload 75513 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-05-03 15:19:59,853 autoreload 75534 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 15:20:01,706 basehttp 75534 6125711360 "GET /les4/user/add/ HTTP/1.1" 200 584
+INFO 2024-05-03 15:23:49,814 autoreload 75581 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 15:23:52,345 basehttp 75581 6122483712 "GET /les4/user/add/ HTTP/1.1" 200 788
+INFO 2024-05-03 15:24:05,826 basehttp 75581 6122483712 "POST /les4/user/add/ HTTP/1.1" 200 833
+INFO 2024-05-03 15:26:11,738 basehttp 75581 6122483712 "POST /les4/user/add/ HTTP/1.1" 200 833
+INFO 2024-05-03 15:26:27,687 basehttp 75581 6122483712 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:00,664 basehttp 75581 6122483712 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:22,555 autoreload 75633 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 15:27:27,982 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:31,078 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:33,792 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:34,234 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:34,438 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:34,600 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:34,769 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:34,941 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:35,155 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:35,356 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:35,545 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:35,740 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:35,932 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:36,120 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:36,312 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:27:36,543 basehttp 75633 6137982976 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:10,325 autoreload 75633 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/views.py changed, reloading.
+INFO 2024-05-03 15:28:10,465 autoreload 75653 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 15:28:12,721 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:15,708 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:17,848 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:18,734 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:18,918 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:19,337 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:19,505 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:19,695 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:19,871 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:20,063 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:20,256 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:20,435 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:20,618 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:20,783 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:20,959 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:21,165 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:21,347 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:21,512 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:21,883 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:22,065 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:22,239 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:22,424 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:22,604 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:22,798 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:22,985 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:23,157 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:23,351 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:23,516 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:23,696 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:23,867 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:24,056 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:24,226 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:24,405 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:24,586 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:24,775 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:24,983 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:25,172 basehttp 75653 6122942464 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 15:28:45,011 autoreload 75653 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/views.py changed, reloading.
+INFO 2024-05-03 15:28:45,181 autoreload 75664 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 15:28:48,715 basehttp 75664 6190149632 "POST /les4/user/add/ HTTP/1.1" 200 834
+INFO 2024-05-03 16:01:45,275 autoreload 75664 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-05-03 16:01:45,534 autoreload 75935 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 16:40:00,508 autoreload 76181 8346892992 Watching for file changes with StatReloader
+ERROR 2024-05-03 16:40:27,460 log 76181 6137753600 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/views.py", line 35, in many_fields_form
+    return render(request, 'myapp4/many_fields_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/many_fields_form.html
+ERROR 2024-05-03 16:40:27,461 basehttp 76181 6137753600 "GET /les4/forms/ HTTP/1.1" 500 78182
+ERROR 2024-05-03 16:40:59,047 log 76181 6137753600 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/views.py", line 35, in many_fields_form
+    return render(request, 'myapp4/many_fields_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 515, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/base.py", line 578, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 5: 'block'. Looking for one of: endblock.
+ERROR 2024-05-03 16:40:59,051 basehttp 76181 6137753600 "GET /les4/forms/ HTTP/1.1" 500 154093
+INFO 2024-05-03 16:41:33,365 basehttp 76181 6137753600 "GET /les4/forms/ HTTP/1.1" 200 1457
+INFO 2024-05-03 16:41:57,096 basehttp 76181 6137753600 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:42:57,232 autoreload 76181 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/views.py changed, reloading.
+INFO 2024-05-03 16:42:57,373 autoreload 76236 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 16:43:36,237 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:43:38,390 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:43:39,138 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:43:48,877 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:43:53,796 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:43:54,228 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:43:54,430 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:43:54,763 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:43:54,959 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:44:09,437 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1608
+INFO 2024-05-03 16:44:13,262 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1531
+INFO 2024-05-03 16:44:21,556 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1607
+INFO 2024-05-03 16:44:25,610 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:44:29,310 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1607
+INFO 2024-05-03 16:44:32,657 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:44:42,411 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:44:43,496 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:44:43,966 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:44:44,446 basehttp 76236 6191296512 "POST /les4/forms/ HTTP/1.1" 200 1532
+INFO 2024-05-03 16:59:14,412 autoreload 76236 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-05-03 16:59:14,640 autoreload 76505 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:01:31,040 autoreload 76545 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:02:09,491 autoreload 76559 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:04:03,880 autoreload 76576 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:04:11,607 basehttp 76576 6129692672 "POST /les4/forms/ HTTP/1.1" 200 2200
+INFO 2024-05-03 17:04:23,957 basehttp 76576 6129692672 "POST /les4/forms/ HTTP/1.1" 200 2136
+INFO 2024-05-03 17:04:57,951 basehttp 76576 6129692672 "POST /les4/forms/ HTTP/1.1" 200 2202
+INFO 2024-05-03 17:06:01,832 autoreload 76576 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-05-03 17:06:01,996 autoreload 76603 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:06:05,538 basehttp 76603 6168719360 "POST /les4/forms/ HTTP/1.1" 200 2202
+INFO 2024-05-03 17:06:20,245 basehttp 76603 6168719360 "POST /les4/forms/ HTTP/1.1" 200 2146
+INFO 2024-05-03 17:06:36,596 basehttp 76603 6168719360 "POST /les4/forms/ HTTP/1.1" 200 2146
+INFO 2024-05-03 17:13:54,142 autoreload 76603 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-05-03 17:13:54,329 autoreload 76665 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:14:00,829 basehttp 76665 6197407744 "POST /les4/forms/ HTTP/1.1" 200 2146
+INFO 2024-05-03 17:14:08,272 basehttp 76665 6197407744 "POST /les4/user/add/ HTTP/1.1" 200 910
+INFO 2024-05-03 17:14:25,343 basehttp 76665 6197407744 "POST /les4/user/add/ HTTP/1.1" 200 924
+INFO 2024-05-03 17:14:34,189 basehttp 76665 6197407744 "POST /les4/user/add/ HTTP/1.1" 200 832
+INFO 2024-05-03 17:18:48,760 autoreload 76665 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/models.py changed, reloading.
+INFO 2024-05-03 17:18:48,998 autoreload 76773 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:28:47,968 autoreload 77001 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:28:50,023 basehttp 77001 6160855040 "POST /les4/user/add/ HTTP/1.1" 200 842
+INFO 2024-05-03 17:29:03,150 basehttp 77001 6160855040 "POST /les4/user/add/ HTTP/1.1" 200 842
+INFO 2024-05-03 17:29:33,142 basehttp 77001 6160855040 "POST /les4/user/add/ HTTP/1.1" 200 842
+INFO 2024-05-03 17:29:33,705 autoreload 77001 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/views.py changed, reloading.
+INFO 2024-05-03 17:29:33,881 autoreload 77012 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:29:36,029 basehttp 77012 6137196544 "POST /les4/user/add/ HTTP/1.1" 200 842
+INFO 2024-05-03 17:29:55,234 basehttp 77012 6137196544 "POST /les4/user/add/ HTTP/1.1" 200 842
+INFO 2024-05-03 17:29:56,019 basehttp 77012 6137196544 "POST /les4/user/add/ HTTP/1.1" 200 842
+INFO 2024-05-03 17:29:56,679 basehttp 77012 6137196544 "POST /les4/user/add/ HTTP/1.1" 200 842
+INFO 2024-05-03 17:29:57,298 basehttp 77012 6137196544 "POST /les4/user/add/ HTTP/1.1" 200 842
+INFO 2024-05-03 17:29:57,894 basehttp 77012 6137196544 "POST /les4/user/add/ HTTP/1.1" 200 842
+INFO 2024-05-03 17:29:58,492 basehttp 77012 6137196544 "POST /les4/user/add/ HTTP/1.1" 200 842
+INFO 2024-05-03 17:29:58,987 basehttp 77012 6137196544 "POST /les4/user/add/ HTTP/1.1" 200 842
+INFO 2024-05-03 17:31:02,100 autoreload 77012 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/views.py changed, reloading.
+INFO 2024-05-03 17:31:04,219 autoreload 77042 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:31:06,217 basehttp 77042 6171291648 "POST /les4/user/add/ HTTP/1.1" 200 842
+INFO 2024-05-03 17:31:59,126 autoreload 77042 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/urls.py changed, reloading.
+INFO 2024-05-03 17:31:59,342 autoreload 77076 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:32:01,039 basehttp 77076 6121779200 "POST /les4/user/add/ HTTP/1.1" 200 842
+INFO 2024-05-03 17:32:21,850 autoreload 77076 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/urls.py changed, reloading.
+INFO 2024-05-03 17:32:22,011 autoreload 77089 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:32:35,220 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:32:46,613 basehttp 77089 6192345088 "POST /les4/user/ HTTP/1.1" 200 932
+INFO 2024-05-03 17:33:07,726 basehttp 77089 6192345088 "POST /les4/user/ HTTP/1.1" 200 855
+INFO 2024-05-03 17:33:11,230 basehttp 77089 6192345088 "POST /les4/user/ HTTP/1.1" 200 855
+INFO 2024-05-03 17:33:20,573 basehttp 77089 6192345088 "POST /les4/user/ HTTP/1.1" 200 855
+INFO 2024-05-03 17:33:22,850 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:12,894 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:14,032 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:15,008 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:15,704 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:16,223 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:16,449 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:16,655 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:16,843 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:17,036 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:17,572 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:17,754 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:17,946 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:18,124 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:18,327 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:18,498 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:18,691 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:18,880 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:19,072 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:19,275 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:19,463 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:19,670 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:19,848 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:20,005 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:20,241 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:20,420 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:20,626 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:20,805 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:20,981 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:21,191 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:34:21,375 basehttp 77089 6192345088 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-05-03 17:40:47,087 autoreload 77089 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/views.py changed, reloading.
+INFO 2024-05-03 17:40:47,238 autoreload 77146 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:40:49,295 autoreload 77146 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/views.py changed, reloading.
+INFO 2024-05-03 17:40:49,426 autoreload 77154 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:46:34,527 autoreload 77267 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:47:12,699 autoreload 77277 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:48:01,457 autoreload 77277 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myproject/settings.py changed, reloading.
+INFO 2024-05-03 17:48:01,627 autoreload 77292 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:48:04,360 autoreload 77297 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:49:14,240 autoreload 77297 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/urls.py changed, reloading.
+INFO 2024-05-03 17:49:14,391 autoreload 77335 8346892992 Watching for file changes with StatReloader
+ERROR 2024-05-03 17:49:41,388 log 77335 6130577408 Internal Server Error: /les4/image/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/views.py", line 72, in image_form
+    return render(request, 'myapp4/upload_image.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/upload_image.html
+ERROR 2024-05-03 17:49:41,389 basehttp 77335 6130577408 "GET /les4/image/ HTTP/1.1" 500 77878
+INFO 2024-05-03 17:50:04,804 basehttp 77335 6130577408 "GET /les4/image/ HTTP/1.1" 200 461
+INFO 2024-05-03 17:50:22,179 autoreload 77373 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:50:24,383 basehttp 77373 6135803904 "GET /les4/image/ HTTP/1.1" 200 476
+INFO 2024-05-03 17:51:21,604 basehttp 77373 6135803904 "GET /les4/image/ HTTP/1.1" 200 476
+INFO 2024-05-03 17:53:25,831 autoreload 77373 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-lecture-django/myproject/myapp4/views.py changed, reloading.
+INFO 2024-05-03 17:53:26,070 autoreload 77410 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:53:29,114 basehttp 77410 6131544064 "GET /les4/image/ HTTP/1.1" 200 519
+INFO 2024-05-03 17:53:35,193 basehttp 77410 6131544064 "GET /les4/image/?csrfmiddlewaretoken=Pc2BSeNuBEFoihUIifsvKhiqaQ33ogRwCPTdnFo1Bm7SLpFT1QEK8xoPKLUAdjnX&image=1710871249232551742.jpg HTTP/1.1" 200 519
+INFO 2024-05-03 17:54:17,889 autoreload 77425 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-03 17:54:19,497 basehttp 77425 6198439936 "GET /les4/image/?csrfmiddlewaretoken=Pc2BSeNuBEFoihUIifsvKhiqaQ33ogRwCPTdnFo1Bm7SLpFT1QEK8xoPKLUAdjnX&image=1710871249232551742.jpg HTTP/1.1" 200 563
+INFO 2024-05-03 17:54:25,117 basehttp 77425 6198439936 "POST /les4/image/?csrfmiddlewaretoken=Pc2BSeNuBEFoihUIifsvKhiqaQ33ogRwCPTdnFo1Bm7SLpFT1QEK8xoPKLUAdjnX&image=1710871249232551742.jpg HTTP/1.1" 200 563
