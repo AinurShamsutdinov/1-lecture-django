@@ -8,7 +8,7 @@ class Author(models.Model):
     email = models.EmailField()
 
     def __str__(self):
-        return f'Name: {self.name}, email: {self.email}'
+        return f'Name: {self.name}, email: {self.email}, test admin panel line'
 
 
 class Post(models.Model):

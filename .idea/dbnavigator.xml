@@ -35,6 +35,11 @@
         <condition column="id" operator="=" value="" active="true" />
       </filter>
     </filter-actions>
+    <filter-actions connection-id="dac82c6f-2024-4aa9-9d90-9cfec9d87f53" dataset="db.myapp5_product" active-filter-id="d375e5c0-84e8-485d-9ef7-90a6dfaf6f10">
+      <filter id="d375e5c0-84e8-485d-9ef7-90a6dfaf6f10" name="Filter" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="is not null" value="" active="true" />
+      </filter>
+    </filter-actions>
     <filter-actions connection-id="dac82c6f-2024-4aa9-9d90-9cfec9d87f53" dataset="db.sqlite_sequence" active-filter-id="" />
     <filter-actions connection-id="dac82c6f-2024-4aa9-9d90-9cfec9d87f53" dataset="db.myapp2_order" active-filter-id="" />
     <filter-actions connection-id="dac82c6f-2024-4aa9-9d90-9cfec9d87f53" dataset="db.myapp4_user" active-filter-id="" />
